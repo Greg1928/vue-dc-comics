@@ -47,7 +47,6 @@
     } 
     & ul{
         @include InLine;
-        list-style: none;
         column-gap: 1rem;
     }
     a{

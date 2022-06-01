@@ -1,3 +1,8 @@
 @mixin InLine{
     display: flex;
+    list-style: none;
+}
+
+@mixin Png{
+    height: 3.5rem;
 }
