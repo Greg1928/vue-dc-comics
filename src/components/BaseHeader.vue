@@ -40,7 +40,7 @@
 .container{
     @include InLine;
     justify-content: space-between;
-    padding: 1rem 0;
+    padding: 0.7rem 0;
 
     & .header__nav{
         align-self: center;
