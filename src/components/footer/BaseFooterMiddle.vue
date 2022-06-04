@@ -75,9 +75,12 @@ footer{
     .footer-left{
         column-gap: 2rem;
         margin-top: 2rem;
+        width: 40%;
     }
     h3{
+        text-transform: uppercase;
         color: white;
+        font-size: 1rem;
     }
     .footer-right{
         width: 100%;
@@ -86,11 +89,15 @@ footer{
         background-repeat: no-repeat;
         background-image: url("../../assets/img/dc-logo-bg.png");
     }
+    // li{
+    //     margin-top: .125rem;
+    // }
     ul{
-        margin: 1rem 0;
+        margin: .9rem 0;
         list-style: none;
     }
     a{
+        font-size: small;
         text-decoration: none;
         color: var(--tertiary-color);
     }

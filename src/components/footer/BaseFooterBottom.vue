@@ -44,6 +44,7 @@ footer{
         height: 3rem;
     }
     a{
+        text-transform: uppercase;
         color: white;
         text-decoration: none;
         padding: 0 1rem;
