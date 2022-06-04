@@ -13,14 +13,14 @@
                     <li><a href="#">link</a></li>
                     <li><a href="#">link</a></li>
                 </ul>
-                <h3>dc comics</h3>
+                <h3>shop</h3>
                 <ul>
                     <li><a href="#">link</a></li>
                     <li><a href="#">link</a></li>
                 </ul>
             </div>
             <div class="middle-col">
-                <h3>dc comics</h3>
+                <h3>dc</h3>
                 <ul>
                     <li><a href="#">link</a></li>
                     <li><a href="#">link</a></li>
@@ -36,7 +36,7 @@
                 </ul>
             </div>
             <div class="right-col">
-                    <h3>dc comics</h3>
+                    <h3>sites</h3>
                 <ul>
                     <li><a href="#">link</a></li>
                     <li><a href="#">link</a></li>
@@ -65,7 +65,7 @@ footer{
     background-image: url("../../assets/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 22rem;
+    height: 21rem;
     
 
     .container, .footer-left{
@@ -74,7 +74,7 @@ footer{
     }
     .footer-left{
         column-gap: 2rem;
-        margin-top: 2rem;
+        margin-top: 2.5rem;
         width: 40%;
     }
     h3{
@@ -84,7 +84,7 @@ footer{
     }
     .footer-right{
         width: 100%;
-        height: 22rem;
+        height: 21rem;
         background-position: right;
         background-repeat: no-repeat;
         background-image: url("../../assets/img/dc-logo-bg.png");
@@ -93,11 +93,12 @@ footer{
     //     margin-top: .125rem;
     // }
     ul{
-        margin: .9rem 0;
+        margin: .7rem 0 0.9rem 0;
         list-style: none;
     }
     a{
-        font-size: small;
+        margin-top: .1875rem;
+        font-size: .9375rem;
         text-decoration: none;
         color: var(--tertiary-color);
     }

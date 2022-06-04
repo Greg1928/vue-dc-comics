@@ -2,7 +2,7 @@
   <footer>
       <div class="container">
           <div class="footer-left">
-              <button><a href="#">Sign-up Now!</a></button>
+              <a href="#">Sign-up Now!</a>
           </div>
           <div class="footer-right">
               <p>follow us</p>
@@ -37,18 +37,13 @@ footer{
     .footer-left{
         align-self: center;
     }
-
-    button{
-        background-color: inherit;
-        border: solid var(--primary-color) 2px;
-        height: 3rem;
-    }
     a{
         text-transform: uppercase;
         color: white;
         text-decoration: none;
-        padding: 0 1rem;
+        padding: .8125rem 1rem .8125rem 1rem;
         font-size: 1.125rem;
+        border: solid var(--primary-color) 2px;
     }
 
     .footer-right{
@@ -61,6 +56,9 @@ footer{
         color: var(--primary-color);
         text-transform: uppercase;
         font-weight: bold;
+    }
+    img{
+        cursor: pointer;
     }
 }
 </style>
