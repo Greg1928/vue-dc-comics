@@ -99,6 +99,7 @@
 .header-top{
     background-color: var(--secondary-color);
     height: 2.5rem;
+    width: 100%
 }
 
 .container{
@@ -120,7 +121,7 @@
         font-size: .8125rem;
         display: flex;
     }
-    .active a{
+    .active a, a:hover{
         color: var(--primary-color);
     }
     .bar{

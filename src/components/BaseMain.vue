@@ -15,6 +15,7 @@ export default {
 <style lang="scss" scoped>
 main{
     background-color: var(--secondary-color);
+    width: 100%;
 
     & .container p{
         padding: 3rem 0;
