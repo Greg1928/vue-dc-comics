@@ -24,6 +24,7 @@ export default {
 @import "../../assets/style/mixins.scss";
 
 footer{
+    z-index: 7;
     .footer-top{
         background-color: var(--primary-color);
         height: 10rem;

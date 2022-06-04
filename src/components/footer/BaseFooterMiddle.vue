@@ -46,9 +46,7 @@
                 </ul>
             </div>
         </div>
-        <div class="footer-right">
-            <img src="../../assets/img/dc-logo-bg.png" alt="">
-        </div>
+        <div class="footer-right"></div>
       </div>
   </footer>
 </template>
@@ -81,9 +79,12 @@ footer{
     h3{
         color: white;
     }
-    img{
-        height: 21.5rem;
-        overflow-y: hidden;
+    .footer-right{
+        width: 100%;
+        height: 22rem;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-image: url("../../assets/img/dc-logo-bg.png");
     }
     ul{
         margin: 1rem 0;
