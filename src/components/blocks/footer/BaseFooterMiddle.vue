@@ -58,11 +58,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/style/mixins.scss";
+@import "../../../assets/style/mixins.scss";
 
 
 footer{
-    background-image: url("../../assets/img/footer-bg.jpg");
+    background-image: url("../../../assets/img/footer-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 21rem;
@@ -87,7 +87,7 @@ footer{
         height: 21rem;
         background-position: right;
         background-repeat: no-repeat;
-        background-image: url("../../assets/img/dc-logo-bg.png");
+        background-image: url("../../../assets/img/dc-logo-bg.png");
     }
     // li{
     //     margin-top: .125rem;

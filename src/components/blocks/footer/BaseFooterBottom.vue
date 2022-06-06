@@ -6,11 +6,11 @@
           </div>
           <div class="footer-right">
               <p>follow us</p>
-              <img src="../../assets/img/footer-facebook.png" alt="">
-              <img src="../../assets/img/footer-twitter.png" alt="">
-              <img src="../../assets/img//footer-youtube.png" alt="">
-              <img src="../../assets/img/footer-periscope.png" alt="">
-              <img src="../../assets/img//footer-pinterest.png" alt="">
+              <img src="../../../assets/img/footer-facebook.png" alt="">
+              <img src="../../../assets/img/footer-twitter.png" alt="">
+              <img src="../../../assets/img//footer-youtube.png" alt="">
+              <img src="../../../assets/img/footer-periscope.png" alt="">
+              <img src="../../../assets/img//footer-pinterest.png" alt="">
           </div>
       </div>
   </footer>
@@ -23,7 +23,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../../assets/style/mixins.scss";
+@import "../../../assets/style/mixins.scss";
 
 footer{
     background-color: var(--quaternary-color);

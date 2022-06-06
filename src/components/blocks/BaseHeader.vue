@@ -1,9 +1,8 @@
  <template>
    <header class="header">
-       <div class="header-top"></div>
        <div class="container">
         <div class="header__logo">
-            <img src="../assets/img/dc-logo.png" alt="">
+            <img src="../../assets/img/dc-logo.png" alt="">
         </div>
         <div class="header__nav">
             <ul>
@@ -94,13 +93,8 @@
  </script>
  
  <style lang="scss" scoped>
-@import "../assets/style/mixins.scss";
+@import "../../assets/style/mixins.scss";
 
-.header-top{
-    background-color: var(--secondary-color);
-    height: 2.5rem;
-    width: 100%
-}
 
 .container{
     @include InLine;
