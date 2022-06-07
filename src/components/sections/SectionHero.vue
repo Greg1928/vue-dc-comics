@@ -8,7 +8,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 section{
     background-image: url("../../assets/img/jumbotron.jpg");
     height: 25rem;

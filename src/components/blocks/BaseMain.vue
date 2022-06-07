@@ -1,30 +1,22 @@
 <template>
   <main>
-
-     <SectionHero/>
-
+    <SectionHero/>
+    <SectionThumb/>
   </main>
 </template>
 
 <script>
 import SectionHero from '../sections/SectionHero.vue';
+import SectionThumb from '../sections/SectionThumb.vue';
+
 export default {
     name: "BaseMain",
     components:{
-    SectionHero,
+        SectionHero,
+        SectionThumb,
 }
 }
 </script>
 
-<style lang="scss" scoped>
-// main{
-//     // background-color: var(--secondary-color);
-//     // width: 100%;
-
-//     // & .container p{
-//     //     padding: 3rem 0;
-//     //     color: white;
-//     //     font-size: 2.5rem;
-//     // }
-// }
+<style>
 </style>
